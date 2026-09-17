@@ -1,6 +1,6 @@
 # Changelog
 
-Todas as mudan\u00e7as relevantes deste projeto ser\u00e3o registradas neste arquivo.
+Todas as mudanças relevantes deste projeto serão registradas neste arquivo.
 
 ## [Unreleased]
 
@@ -8,4 +8,4 @@ Todas as mudan\u00e7as relevantes deste projeto ser\u00e3o registradas neste arq
 
 ### Added
 
-- Prepara\u00e7\u00e3o da primeira vers\u00e3o p\u00fablica do c\u00f3digo-fonte.
+- Preparação da primeira versão pública do código-fonte.
