@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "decisao", "prioridade", "grupo", "motivo", "fonte_primaria"],
+        "properties": {
+          "id": {"type": "integer"},
+          "decisao": {"type": "string", "enum": ["MANTER", "DESCARTAR"]},
+          "prioridade": {"type": "string", "enum": ["CRITICA", "ALTA", "NORMAL", "BAIXA"]},
+          "grupo": {"type": "string", "minLength": 1},
+          "motivo": {"type": "string", "minLength": 1},
+          "fonte_primaria": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

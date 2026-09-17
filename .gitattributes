@@ -1,0 +1,2 @@
+# Keep repository text files consistent across development environments.
+* text=auto eol=lf

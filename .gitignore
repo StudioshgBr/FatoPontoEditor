@@ -1,0 +1,54 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Python environments, caches and tooling
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local application data and generated output
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.bak
+*.old
+*.tmp
+*.dump
+*.zip
+*.tar
+*.gz
+uploads/
+backups/
+build/
+dist/
+*.egg-info/
+
+# Local editor settings
+.idea/
+.vs/
+.vscode/
+
+# Operating-system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local migration notes; the public documentation is README.md.
+README_CODEX.txt
+README_FIX.txt
