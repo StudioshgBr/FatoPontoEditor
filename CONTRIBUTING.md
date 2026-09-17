@@ -1,15 +1,18 @@
-# Contribuindo para o FatoPontoEditor
+# Contribuindo para o Fato & Ponto
 
-Obrigado pelo interesse em contribuir. Para propor uma mudan\u00e7a:
+Obrigado pelo interesse em contribuir. Para propor uma mudança:
 
-1. Fa\u00e7a um fork do reposit\u00f3rio e crie uma branch focada.
-2. Instale as depend\u00eancias e confirme que o aplicativo continua iniciando.
-3. Mantenha a altera\u00e7\u00e3o pequena, clara e acompanhada de testes quando houver uma forma pr\u00e1tica de test\u00e1-la.
-4. Use commits com mensagens objetivas.
-5. Abra um Pull Request explicando o problema, a solu\u00e7\u00e3o e como ela foi validada.
+Faça um fork do repositório e crie uma branch focada.
+
+Instale as dependências e confirme que o aplicativo continua iniciando.
+
+Mantenha a alteração pequena, clara e acompanhada de testes quando houver uma forma prática de testá-la.
+
+Use commits com mensagens objetivas.
+
+Abra um Pull Request explicando o problema, a solução e como ela foi validada.
 
 ```bash
 git checkout -b feature/minha-feature
 ```
-
-Nunca inclua credenciais, o arquivo `.env`, bancos locais, logs ou conte\u00fado editorial de produ\u00e7\u00e3o no Pull Request.
+Nunca inclua credenciais, o arquivo .env, bancos locais, logs ou conteúdo editorial de produção no Pull Request.
