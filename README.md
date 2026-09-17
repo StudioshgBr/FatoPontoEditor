@@ -43,7 +43,7 @@ Ainda não há screenshots públicos no repositório. Quando disponíveis, elas 
 ## Instalação
 
 ```bash
-git clone https://github.com/SEU-USUARIO/FatoPontoEditor.git
+git clone https://github.com/StudioshgBr/FatoPontoEditor.git
 cd FatoPontoEditor
 py -3.13 -m venv .venv
 .\.venv\Scripts\Activate.ps1
